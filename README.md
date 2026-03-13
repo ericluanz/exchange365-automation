@@ -4,20 +4,6 @@ Scripts e automações para gerenciamento do Exchange Online (Microsoft 365) uti
 
 ---
 
-## 📂 Estrutura
-
-exchange/
-│
-├── mailbox/        → Gerenciamento de caixas de correio
-├── permissions/    → Permissões e acessos
-├── groups/         → Grupos e listas de distribuição
-├── security/       → Segurança e auditoria
-├── reports/        → Relatórios administrativos
-├── cleanup/        → Limpeza e manutenção
-└── connection/     → Conexão e autenticação Exchange Online
-
----
-
 ## 🔧 Exemplos
 
 ### 📧 Mailbox
