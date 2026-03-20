@@ -6,7 +6,7 @@ O Exchange não usa GMT-3 direto, para os parâmetros de TimeZone ele usa o iden
 
 Language vai usar o valor pt-BR.
 
-🔹 Atualizar uma conta específica
+##🔹 Atualizar uma conta específica
 
 Set-MailboxRegionalConfiguration -Identity "seuemail@empresa.com" -Language pt-BR -LocalizeDefaultFolderName:$true -TimeZone "E. South America Standard Time"
 
@@ -29,13 +29,13 @@ Get-Mailbox -ResultSize Unlimited | Where-Object {
     $_.PrimarySmtpAddress -ne "seuemail2@empresa.com"
 } | Set-MailboxRegionalConfiguration -Language pt-BR -LocalizeDefaultFolderName:$true -TimeZone "E. South America Standard Time"
 
-🔍 Conferir se aplicou corretamente
+## 🔍 Conferir se aplicou corretamente
 
 Get-MailboxRegionalConfiguration -Identity "seuemail@empresa.com" | Select Language, TimeZone, DateFormat, TimeFormat
 
 Você deve ver: TimeZone : E. South America Standard Time
 
-Todas as contas:
+## Todas as contas:
 Get-Mailbox -ResultSize Unlimited | ForEach-Object {
     $User = $_.PrimarySmtpAddress
     Get-MailboxRegionalConfiguration -Identity $User | Select-Object @{Name="User";Expression={$User}}, DefaultFolderNameMatchingUserLanguage, Language, TimeZone, DateFormat, TimeFormat
