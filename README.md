@@ -1,4 +1,4 @@
-# Exchange Online 365 - Scripts & Automation
+# Exchange Online 365 - Scripts & Automação
 
 Scripts e automações para gerenciamento do Exchange Online (Microsoft 365) utilizados no suporte e administração no meu dia a dia.
 
