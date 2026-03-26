@@ -7,6 +7,7 @@ Scripts e automações para gerenciamento do Exchange Online (Microsoft 365) uti
 📂 Estrutura dos Scripts
 
 📧 Exchange Online
+
 Acesso a caixa postal.ps1
 Concede permissões de acesso a caixas de correio.
 Permitir enviar como outro e-mail.ps1
@@ -21,12 +22,14 @@ Alterar fuso horário.ps1
 Modifica o fuso horário de contas de usuário.
 
 🔗 Conexão e Utilidades
+
 Conectar via PowerShell.ps1
 Script para autenticação e conexão com serviços Microsoft 365.
 Exchange365 Scripts.ps1
 Script base com funções auxiliares para administração do Exchange.
 
 📁 SharePoint Online
+
 Listas do Sharepoint.ps1
 Criação e gerenciamento de listas no SharePoint.
 PnP Online.ps1
@@ -36,7 +39,7 @@ Conexão e operações utilizando PnP PowerShell.
 
 Antes de executar os scripts, certifique-se de ter:
 
-PowerShell 5.1 ou superior (ou PowerShell Core)
+PowerShell 7
 Módulos instalados:
 Exchange Online Management
 PnP PowerShell
