@@ -42,7 +42,7 @@ Get-Mailbox -RecipientTypeDetails RoomMailbox, EquipmentMailbox -ResultSize Unli
 Set-CalendarProcessing -TimeZone "E. South America Standard Time"
 
 🔍 Conferir se aplicou corretamente
-Get-MailboxRegionalConfiguration usuario@elizcapital.com
+Get-MailboxRegionalConfiguration usuario@empresa.com
 
 Você deve ver: TimeZone : E. South America Standard Time
 
